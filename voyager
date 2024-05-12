@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ -z $STOW_FOLDERS ]]; then
-    STOW_FOLDERS="tmux"
+    STOW_FOLDERS="tmux,personal"
 fi
 
 if [[ -z $DOTFILES ]]; then
